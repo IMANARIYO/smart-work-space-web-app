@@ -32,7 +32,7 @@ const Benefits = () => {
   ]
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-background" id='benefits'>
       <div className="text-center space-y-4 mb-16">
         <p className="text-teal-600 font-medium text-lg">Your Benefits</p>
         <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">Why Choose Us</h2>

@@ -17,10 +17,11 @@ const Header = () => {
     { label: 'Space', href: '#space' },
     { label: 'About', href: '#about' },
     { label: 'Contact', href: '#contact' },
-        { label: 'OurMission', href: '#mission' }
+    { label: 'Benefits', href: '#benefits' },
+    { label: 'OurMission', href: '#mission' }
   ]
   return (
-    <header className='bg-white border-b border-gray-200 sticky top-0 z-50'>
+    <header className='bg-white border-b border-gray-200 fixed top-0  w-full'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between items-center h-16'>
           {/* Logo */}
@@ -69,7 +70,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
 
       {mobileMenuOpen &&
         <div className='md:hidden bg-white border-t border-gray-200'>

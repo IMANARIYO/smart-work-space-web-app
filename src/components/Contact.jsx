@@ -158,7 +158,7 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             error={errors.name}
-            required
+            // required
           />
           <Input
             name="email"
@@ -168,7 +168,7 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             error={errors.email}
-            required
+            // required
           />
           <Input
             name="subject"
@@ -177,7 +177,7 @@ const Contact = () => {
             value={formData.subject}
             onChange={handleChange}
             error={errors.subject}
-            required
+            // required
           />
           <Textarea
             name="message"

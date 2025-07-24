@@ -17,10 +17,10 @@ import About from "./components/About"
 const App = () => {
   return (
     <>
-      <Header />
       <Hero/>
       <Services/>
       <Mission/>
+      <Header />
       <About/>
       <Contact/>
       <Footer/>
